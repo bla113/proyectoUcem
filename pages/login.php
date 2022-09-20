@@ -15,10 +15,6 @@
   
   <!-- Hoja de Estilos Css -->
   <link href="../css/signin.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/fotawesome/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
-
 
 </head>
 
@@ -26,7 +22,7 @@
 
   <main class="form-signin w-100 m-auto">
     <form action="../modulos/ingresar.php"  method="POST">
-      <img class="mb-4" src="../img/logoUcem.png" alt="LogoUcem" width="72" height="57">
+      <img class="mb-4" src="../img/logoUcem.png" alt="LogoUcem" width="250" height="125">
       <h1 class="h3 mb-3 fw-normal">Ingrese Credenciales</h1>
 
       <div class="form-floating">
