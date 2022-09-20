@@ -25,26 +25,19 @@
 <body class="text-center">
 
   <main class="form-signin w-100 m-auto">
-    <form>
+    <form action="../modulos/ingresar.php"  method="POST">
       <img class="mb-4" src="../img/logoUcem.png" alt="LogoUcem" width="72" height="57">
       <h1 class="h3 mb-3 fw-normal">Ingrese Credenciales</h1>
 
       <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="login">
         <label for="floatingInput">Correo Electrónico</label>
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña" name="password" >
         <label for="floatingPassword">Contraseña</label>
       </div>
-
-      <div class="checkbox mb-3">
-       
-        
-      <i class="fa-solid fa-address-card"></i>
-        <a href="../pages/frmCrearCuenta.php">Crear Cuenta</a>
-        
-      </div>
+       <a href="frmCrearCuenta.php">Crear Cuenta</a>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
       <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
     </form>
